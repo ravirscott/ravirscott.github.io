@@ -200,7 +200,7 @@
       <div class="relative md:col-span-2">
         <div class="paper-card overflow-hidden" style="transform: rotate(2deg);">
           <div class="washi-tape"></div>
-          <img src="assets/sketch-code.jpg" alt="Sketch of tools of the trade" class="h-auto w-full" />
+          <img src="sketch-code.jpg" alt="Sketch of tools of the trade" class="h-auto w-full" />
           <div class="dashed-t px-4 py-3 text-center text-lg" style="font-family: var(--font-hand);">— tools of the trade —</div>
         </div>
         <div class="paper-card absolute -bottom-6 -left-6 hidden w-40 p-3 text-center md:block" style="transform: rotate(-6deg);">
@@ -215,7 +215,7 @@
       <div class="paper-card overflow-hidden" style="transform: rotate(-1deg);">
         <div class="washi-tape" style="left:20%;"></div>
         <div class="washi-tape" style="left:80%; transform: translateX(-50%) rotate(4deg);"></div>
-        <img src="assets/sketch-hero.jpg" alt="Watercolor sketch of a village in Bihar" loading="lazy" class="h-auto w-full" />
+        <img src="sketch-hero.jpg" alt="Watercolor sketch of a village in Bihar" loading="lazy" class="h-auto w-full" />
         <div class="flex flex-wrap items-center justify-between gap-2 dashed-t px-4 py-3 md:px-6 md:py-4">
           <p style="font-family: var(--font-hand);" class="text-lg md:text-xl">"Where the Ganga flows eternal — the soil blooms gold in mustard."</p>
           <span class="text-sm fg-soft" style="font-family: var(--font-type);">plate i · Sonma, Begusarai</span>
@@ -309,7 +309,7 @@
       </div>
       <div class="paper-card mb-8 overflow-hidden" style="transform: rotate(-0.5deg);">
         <div class="washi-tape" style="left:30%;"></div>
-        <img src="assets/sketch-tools.jpg" alt="Sketch of pencils, brushes and studio tools" loading="lazy" class="h-48 w-full object-cover sm:h-64" />
+        <img src="sketch-code.jpg" alt="Sketch of pencils, brushes and studio tools" loading="lazy" class="h-48 w-full object-cover sm:h-64" />
       </div>
       <div id="tools" class="flex flex-wrap gap-3 md:gap-4"></div>
     </section>
@@ -394,10 +394,10 @@
 
     // Projects
     const projects = [
-      { img: "assets/sketch-music.jpg", emoji: "🎵", title: "Music", items: ["Lone Yet Loyal","Void Testament","SANGAM"], note: "released independently — on 10+ streaming platforms.", rot: -1.5, accent: "var(--terracotta)" },
-      { img: "assets/sketch-code.jpg", emoji: "💻", title: "Development", items: ["Personal Website","Blogger Themes","AI Projects","Portfolio Systems","Web Applications"], note: "hand-coded websites, blogger themes & small AI experiments.", rot: 1.5, accent: "var(--indigo-ink)" },
-      { img: "assets/sketch-writing.jpg", emoji: "📚", title: "Books", items: ["From Silence to Self-Made","Technology & Development publications"], note: "from silence to self-made — a life in pages.", rot: -1, accent: "var(--sage)" },
-      { img: "assets/sketch-hero.jpg", emoji: "🎬", title: "Films", items: ["Lone Yet Loyal","SANGAM"], note: "short, independent, quiet. shot without a crew.", rot: 2, accent: "var(--mustard)" },
+      { img: "sketch-music.jpg", emoji: "🎵", title: "Music", items: ["Lone Yet Loyal","Void Testament","SANGAM"], note: "released independently — on 10+ streaming platforms.", rot: -1.5, accent: "var(--terracotta)" },
+      { img: "sketch-code.jpg", emoji: "💻", title: "Development", items: ["Personal Website","Blogger Themes","AI Projects","Portfolio Systems","Web Applications"], note: "hand-coded websites, blogger themes & small AI experiments.", rot: 1.5, accent: "var(--indigo-ink)" },
+      { img: "sketch-writing.jpg", emoji: "📚", title: "Books", items: ["From Silence to Self-Made","Technology & Development publications"], note: "from silence to self-made — a life in pages.", rot: -1, accent: "var(--sage)" },
+      { img: "sketch-hero.jpg", emoji: "🎬", title: "Films", items: ["Lone Yet Loyal","SANGAM"], note: "short, independent, quiet. shot without a crew.", rot: 2, accent: "var(--mustard)" },
     ];
     document.getElementById("projects").innerHTML = projects.map(p=>`
       <div class="paper-card overflow-hidden" style="transform: rotate(${p.rot}deg);">
